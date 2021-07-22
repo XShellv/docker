@@ -6,7 +6,7 @@ app.use(async (ctx, next) => {
     Math.random() > 0.8 ? aa() : "2";
     await next();
     ctx.response.type === "text/html";
-    ctx.response.body = "<h1>Hello Koa!</h1>"
+    ctx.response.body = "<h1>Hello Docker!</h1>"
 });
 
 if (!module.parent) {
